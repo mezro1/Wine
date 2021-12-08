@@ -1,0 +1,165 @@
+﻿* {
+    /* background-color: mediumaquamarine;*/
+   
+}
+
+html{
+    min-height:100%;
+}
+body {
+    overflow-x: hidden;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+
+
+}
+
+{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+}
+/*------Navigation------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width:100%;
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 40px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+    .navbar-nav li a {
+        float: right;
+        text-align: left;
+    }
+
+#nav-bar ul li a:hover {
+    color: #f5170e;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f05b67;
+}
+
+.navbar {
+    background: black;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    color: #581cee;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#slider {
+    width: 100%;
+}
+
+/*------Footer-------*/
+#footer {
+    background: black !important;
+    color: #f05b67 !important;
+    padding: 100px;
+    height: 100px;
+}
+
+.fa-american-sign-language-interpreting {
+    margin: 28px;
+    color: #f05b67 !important;
+}
+
+#myVideo {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(35%);
+}
+
+video {
+    display: block;
+}
+
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #f05b67;
+    border-radius: 50%;
+}
+
+
+
+.footerlinks {
+    color: #f05b67;
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #f5170e;
+    }
+
+#footer1 {
+    background: black;
+}
+
+#footer2 {
+    background: black;
+}
+
+
+
+.sticky-footer {
+position:sticky;
+top:100%;
+
+}
+
+content{
+    flex:1;
+}
+footer {
+    clear: both;
+    background: #000;
+    position: relative;
+    top: 640px;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    
+}
+clear{
+    clear:both;
+}
+div.scrollmenu {
+    
+    overflow: auto;
+    white-space: nowrap;
+}
+
+    div.scrollmenu a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 24px;
+        text-decoration: none;
+    }
+
+        div.scrollmenu a:hover {
+            background-color: #777;
+        }
